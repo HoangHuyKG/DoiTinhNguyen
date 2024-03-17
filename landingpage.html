@@ -15,9 +15,17 @@
 
 <body>
     <div class="header">
-        <div class="header_logo">
+        <a class="header_logo" href="">
             <image class="header_logo_image" src="../logo.png" />
             <h1 class="header_logo_title">đội tình nguyện</h1>
+        </a>
+        <div class="header_navigation">
+            <a class="header_navigation_item" href="">hoạt động đã đi</a>
+            <a class="header_navigation_item" href="">đăng ký hoạt động & điểm danh</a>
+            <a class="header_navigation_item" href="">họp đội và quỹ đội</a>
+        </div>
+        <div class="header_navigation_login">
+            <a class="header_navigation_login_button" href="">Đăng nhập</a>
         </div>
         <div class="header_submenu">
             <svg class="header_submenu_vector" xmlns="http://www.w3.org/2000/svg"
@@ -29,22 +37,30 @@
     </div>
     <div class="container">
         <div class="introduce">
-            <h1 class="introduce_title">Đội tình nguyện CTUT</h1>
-            <p class="introduce_paragraph">
-                Được thành lập vào ngày 01 tháng 11 năm 2014 với phương châm "Tình Nguyện - Bản Lĩnh - Hội Nhập".
-            </p>
-            <div class="introduce_button_box">
-                <a class="introduce_button">get started</a>
+            <div class="col-50">
+                <h1 class="introduce_title">Đội tình nguyện CTUT</h1>
+                <p class="introduce_paragraph">
+                    Được thành lập vào ngày 01 tháng 11 năm 2014 với phương châm "Tình Nguyện - Bản Lĩnh - Hội Nhập".
+                </p>
+                <div class="introduce_button_box">
+                    <a class="introduce_button" href="">get started</a>
+                </div>
+            </div>
+            <div class="banner col-50">
+                <image class="banner_image" src="../doitinhnguyenbanner.jpg" />
             </div>
         </div>
         <div class="about">
-            <div class="banner">
-                <image class="banner_image" src="../doitinhnguyenbanner.jpg" />
+            <div class="col-50">
+                <h1 class="about_title">Giới thiệu về <br> Đội tình nguyện CTUT</h1>
+                <image class="about_image" src="../logo.png" />
             </div>
-            <h1 class="about_title">Giới thiệu về <br> Đội tình nguyện CTUT</h1>
-            <image class="about_image" src="../logo.png" />
-            <p class="about_paragraph">Đội Tình Nguyện CTUT, trực thuộc Trường Đại học Kỹ thuật - Công nghệ Cần Thơ, là một tổ chức tình nguyện nổi bật với sứ mệnh góp phần tích cực vào việc xây dựng cộng đồng và phát triển cộng đồng. Thành lập từ ngày 01/11/2014, Đội đã tự hào mang lại những đóng góp ý nghĩa và giá trị cho cả cộng đồng, nhà trường và xã hội.</p>
-            <a class="about_button">read more</a>
+            
+            <div class="col-50">
+                <p class="about_paragraph">Đội Tình Nguyện CTUT, trực thuộc Trường Đại học Kỹ thuật - Công nghệ Cần Thơ, là một tổ chức tình nguyện nổi bật với sứ mệnh góp phần tích cực vào việc xây dựng cộng đồng và phát triển cộng đồng. Thành lập từ ngày 01/11/2014, Đội đã tự hào mang lại những đóng góp ý nghĩa và giá trị cho cả cộng đồng, nhà trường và xã hội.</p>
+                <a class="about_button" href="">read more</a>
+            </div>
+            
         </div>
         <div class="navigation">
             <a class="navigation_box">
@@ -154,7 +170,7 @@
                                             d="M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256C0 376 82.7 476.8 194.2 504.5V334.2H141.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H287V510.1C413.8 494.8 512 386.9 512 256h0z" />
                                     </svg>
                                 </a>
-                                <a class="introduce_maintor_link">
+                                <a class="introduce_maintor_link" href="#">
                                     <svg class="introduce_maintor_sgv" xmlns="http://www.w3.org/2000/svg"
                                     viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
                                     <path
@@ -188,7 +204,7 @@
     <hr>
     <div class="footer">
         <div class="footer_container">
-            <div class="footer_logo">
+            <div class="footer_logo col-33" >
                 <image class="footer_logo_image" src="../logo.png" />
                 <h1 class="footer_logo_title">đội tình nguyện</h1>
                 <div>
@@ -209,7 +225,28 @@
                     
                 </div>
             </div>
-            <div class="footer_box_bottom">
+            <div class="footer_box_bottom_a col-33 ">
+                <h3 class="footer_contact">điều hướng</h3>
+                <h3 class="footer_contact_title" >
+                    <a class="footer_contact_link" href="">Giới thiệu</a>
+                </h3>
+                <h3 class="footer_contact_title" > 
+                    <a class="footer_contact_link" href="">
+                        Hoạt động đã đi
+                    </a>
+                </h3>
+                <h3 class="footer_contact_title" > 
+                    <a class="footer_contact_link" href="">
+                        Đăng ký hoạt động và điểm danh
+                    </a>
+                </h3>
+                <h3 class="footer_contact_title" > 
+                    <a class="footer_contact_link" href="">
+                        Họp Đội và Quỹ Đội
+                    </a>
+                </h3>
+            </div>
+            <div class="footer_box_bottom_b col-33">
                 <h3 class="footer_contact">liên hệ</h3>
                 <h3 class="footer_contact_title">địa chỉ</h3>
                 <p class="footer_contact_paragraph">...</p>
