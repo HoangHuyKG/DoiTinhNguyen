@@ -1,0 +1,393 @@
+body {
+    margin: 0;
+}
+
+hr {
+    border: 1px solid #000000;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* MOBILE */
+@media only screen and (max-width:739px) {
+
+    .header {
+        display: flex;
+        align-items: center;
+        background-color: #2CAFFE;
+        color: #222C33;
+        justify-content: space-between;
+        border-bottom: 2px solid #000000;
+    }
+
+    .header_logo {
+        display: flex;
+        align-items: center;
+        margin-left: 10px;
+    }
+
+    .header_submenu {
+        margin-right: 10px;
+    }
+
+    .header_logo_image {
+        width: 50px;
+        height: 50px;
+    }
+
+    .header_logo_title {
+        font-size: 24px;
+        font-family: "Roboto Condensed", sans-serif;
+        text-transform: uppercase;
+        margin-left: 10px;
+    }
+
+    .header_submenu_vector {
+        width: 24px;
+        height: 24px;
+        color: #222C33;
+    }
+
+    .container {
+        margin: 0 10px;
+    }
+
+    .introduce {
+        margin-bottom: 40px;
+    }
+
+    .introduce_button_box {
+        margin: 30px 0px;
+    }
+
+    .introduce_title {
+        color: #222C33;
+        font-size: 32px;
+        font-family: "Roboto Condensed", sans-serif;
+        text-transform: uppercase;
+    }
+
+    .introduce_paragraph {
+        margin: 0;
+        font-family: "Roboto Condensed", sans-serif;
+        color: #222C33;
+        text-align: justify;
+
+    }
+
+    .introduce_button {
+        margin-top: 20px;
+        font-size: 16px;
+        font-family: "Roboto Condensed", sans-serif;
+        text-transform: uppercase;
+        background-color: #2CAFFE;
+        border-radius: 8px;
+        border: 2px solid #2C3033;
+        font-weight: bold;
+        color: #222C33;
+        padding: 10px 20px;
+    }
+
+    .about {
+        padding-bottom: 20px;
+        border-bottom: 1px solid #000000;
+    }
+
+    .banner {
+        margin: 0 -10px;
+    }
+
+    .banner_image {
+        width: 100%;
+        height: 100%;
+    }
+
+    .about_title {
+        color: #222C33;
+        font-size: 32px;
+        font-family: "Roboto Condensed", sans-serif;
+        text-transform: uppercase;
+    }
+
+    .about_image {
+        width: 100px;
+        height: 100px;
+    }
+
+    .about_paragraph {
+        font-family: "Roboto Condensed", sans-serif;
+        color: #222C33;
+        text-align: justify;
+    }
+
+    .about_button {
+        font-family: "Roboto Condensed", sans-serif;
+        text-transform: uppercase;
+        text-decoration: underline;
+        font-weight: bold;
+        text-underline-position: under;
+        color: #2CAFFE;
+    }
+
+
+    .navigation_box {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border-bottom: 1px solid #000000;
+    }
+
+    .navigation_box_sgv {
+        width: 45px;
+        height: 45px;
+        fill: #2CAFFE;
+    }
+
+    .navigation_box_name {
+        font-family: "Roboto Condensed", sans-serif;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: #222C33;
+        margin-top: 20px;
+    }
+
+    .navigation_box_details {
+        font-family: "Roboto Condensed", sans-serif;
+        margin: 20px 0px;
+        color: #222C33;
+    }
+
+
+
+    .introduce_maintor_title {
+        font-family: "Roboto Condensed", sans-serif;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: #222C33;
+    }
+
+    .introduce_maintor_details {
+        display: flex;
+    }
+
+    .introduce_maintor_box {
+        display: flex;
+        flex-direction: column;
+        margin-left: 30px;
+        justify-content: center;
+    }
+
+    .introduce_maintor_top {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        border-bottom: 1px solid #000000;
+    }
+
+    .introduce_maintor_details_image {
+        width: 132px;
+        height: 132px;
+        border-radius: 50%;
+    }
+
+    .introduce_maintor_sgv {
+        width: 20px;
+        height: 20px;
+    }
+
+    .introduce_maintor_name {
+        font-family: "Roboto Condensed", sans-serif;
+        margin-bottom: 10px;
+        color: #222C33;
+
+    }
+
+    .introduce_maintor_link {
+        fill: #222C33;
+    }
+
+    .introduce_maintor_positon {
+        font-family: "Roboto Condensed", sans-serif;
+        margin-bottom: 10px;
+        color: #2CAFFE;
+    }
+
+    .introduce_maintor_bottom {
+        margin-top: 20px;
+    }
+
+    .introduce_maintor_details_paragraph {
+        font-family: "Roboto Condensed", sans-serif;
+        color: #222C33;
+        text-align: justify;
+    }
+
+    .footer {
+        background-color: #00619E;
+        padding-bottom: 100px;
+        padding-top: 20px;
+    }
+
+    .footer_container {
+        margin: 0 10px;
+
+    }
+
+    .footer_logo {
+        display: flex;
+        align-items: center;
+    }
+
+    .footer_logo_title {
+        color: #222C33;
+        font-size: 24px;
+        font-family: "Roboto Condensed", sans-serif;
+        text-transform: uppercase;
+    }
+
+    .footer_logo_image {
+        width: 50px;
+        height: 50px;
+    }
+
+    .footer_logo {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .footer_contact {
+        font-family: "Roboto Condensed", sans-serif;
+        text-transform: uppercase;
+        color: #222C33;
+
+    }
+
+    .footer_contact_title {
+        font-family: "Roboto Condensed", sans-serif;
+        text-transform: uppercase;
+        font-weight: 400;
+        color: #878787;
+        color: #222C33;
+
+    }
+
+    .footer_social_link {
+        fill: #222C33;
+    }
+
+
+    .footer_contact_paragraph {
+        font-family: "Roboto Condensed", sans-serif;
+        text-align: justify;
+        margin: 0;
+        color: #222C33;
+
+    }
+
+
+    /* Slideshow container */
+    .slideshow-container {
+        max-width: 1000px;
+        position: relative;
+        margin: auto;
+    }
+
+    /* Hide the images by default */
+    .mySlides {
+        display: none;
+    }
+
+    /* Next & previous buttons */
+    .prev,
+    .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        margin-top: -22px;
+        padding: 16px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+    }
+
+    /* Position the "next button" to the right */
+    .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+    }
+
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover,
+    .next:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+
+    /* Caption text */
+    .text {
+        color: #f2f2f2;
+        font-size: 15px;
+        padding: 8px 12px;
+        position: absolute;
+        bottom: 8px;
+        text-align: center;
+    }
+
+    /* Number text (1/3 etc) */
+    .numbertext {
+        color: #f2f2f2;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+    }
+
+    /* The dots/bullets/indicators */
+    .dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+    }
+
+    .active,
+    .dot:hover {
+        background-color: #717171;
+    }
+
+    /* Fading animation */
+    .fade {
+        animation-name: fade;
+        animation-duration: 1.5s;
+    }
+
+    @keyframes fade {
+        from {
+            opacity: .4
+        }
+
+        to {
+            opacity: 1
+        }
+    }
+}
+
+/* TABLET */
+@media only screen and (min-width:740px) and (max-width:1023px){
+    
+}
+/* PC */
+@media only screen and (min-width:1024px) {
+}
